@@ -1,5 +1,4 @@
-Master Work Project
-How to effectively use interactivity to improve visual analysis and communication in groups of novices or experts, using the R package “Shiny” 
+Master Work Project - How to effectively use interactivity to improve visual analysis and communication in groups of novices or experts, using the R package “Shiny” 
 by Maria do Mar Guiod de Castro Couto Viana
 
 Project Work presented as partial requirement for obtaining the Master’s degree in Information Management, with a specialization in Knowledge Management and Business Intelligence 
