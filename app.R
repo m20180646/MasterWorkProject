@@ -106,7 +106,7 @@ ui <- fluidPage(#theme="bootstrap.css"
                       ,                       HTML('<center><span style= color:rgb(142,142,142)><font face=Calibri size=3>Vitor Lopes Silveira <a href="https://www.linkedin.com/in/vitor-lopes-silveira/">LinkedIn</a></center> </font></span>')
                       ,   HTML('<center><span style= color:rgb(142,142,142)><font face=Calibri size=3>   This prototype will be used in the Project Work "How to effectively use interactivity to improve visual analysis and communication in groups of novices or experts, using the R package Shiny" developed by Maria do Mar Viana.</a><//center> </font></span>')
                       
-                      #,    uiOutput("video")
+                      ,    uiOutput("video")
                       
                       
              ),
@@ -319,7 +319,7 @@ ui <- fluidPage(#theme="bootstrap.css"
                                       animate =
                                         animationOptions(interval = 700, loop = FALSE, playButton = icon('play', "fa-2x"),
                                                          pauseButton = icon('pause', "fa-2x"))),
-                          radioButtons("rd",label = "Select in the radio box which group of countries to compare Portugal with:", choices = list("All European countries","PIGS**","EU entry after 2004"))
+                          radioButtons("rd",label = "Select in the radio box which group of countries to compare Portugal with:", choices = list("All European countries","Italy, Greece and Spain","EU entry after 2004"))
                           #,br(),br(),br(),
                           #  HTML("<p align=right><font size=3><span style= color:rgb(142,0,0)><strong>Did you know that...</strong></font></span>
                           #      <br><br><em><font size=2><span style= color:rgb(72,72,72)>
@@ -342,7 +342,7 @@ ui <- fluidPage(#theme="bootstrap.css"
                                   plotlyOutput("international")
                                   , HTML('<span style = color:rgb(128,128,128)>Data source: Eurostat, April 2019 <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php/The_Macroeconomic_Imbalance_Procedure_%28MIP%29_introduced">Click here</a> </span>')
                                   ,br(), HTML('<span style = color:rgb(128,128,128)> *GDP=Gross Domestic Product </span>')
-                                  ,br(), HTML('<span style = color:rgb(128,128,128)> **PIGS= Acronym for Portugal, Italy, Greece and Spain </span>')    
+                            #      ,br(), HTML('<span style = color:rgb(128,128,128)> **PIGS= Acronym for Portugal, Italy, Greece and Spain </span>')    
                                   )  
                         )
                       
