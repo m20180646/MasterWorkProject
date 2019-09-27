@@ -1471,7 +1471,7 @@ server <- function(input, output) {
     }
     
     
-    else if((input$internationaldates=="2018")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2018")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2018_P$Country <- factor( MIP_Y2018_P$Country, levels = unique( MIP_Y2018_P$Country)[order(MIP_Y2018_P$GDP, decreasing = TRUE)])
@@ -1531,7 +1531,7 @@ server <- function(input, output) {
       
     }
     
-    else if((input$internationaldates=="2017")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2017")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2017_P$Country <- factor( MIP_Y2017_P$Country, levels = unique( MIP_Y2017_P$Country)[order(MIP_Y2017_P$GDP, decreasing = TRUE)])
@@ -1588,7 +1588,7 @@ server <- function(input, output) {
       
     }
     
-    else if((input$internationaldates=="2016")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2016")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2016_P$Country <- factor( MIP_Y2016_P$Country, levels = unique( MIP_Y2016_P$Country)[order(MIP_Y2016_P$GDP, decreasing = TRUE)])
@@ -1646,7 +1646,7 @@ server <- function(input, output) {
       
     }
     
-    else if((input$internationaldates=="2015")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2015")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2015_P$Country <- factor( MIP_Y2015_P$Country, levels = unique( MIP_Y2015_P$Country)[order(MIP_Y2015_P$GDP, decreasing = TRUE)])
@@ -1703,7 +1703,7 @@ server <- function(input, output) {
       
     }
     
-    else if((input$internationaldates=="2014")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2014")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2014_P$Country <- factor( MIP_Y2014_P$Country, levels = unique( MIP_Y2014_P$Country)[order(MIP_Y2014_P$GDP, decreasing = TRUE)])
@@ -1760,7 +1760,7 @@ server <- function(input, output) {
         )
     }
     
-    else if((input$internationaldates=="2013")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2013")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2013_P$Country <- factor( MIP_Y2013_P$Country, levels = unique( MIP_Y2013_P$Country)[order(MIP_Y2013_P$GDP, decreasing = TRUE)])
@@ -1818,7 +1818,7 @@ server <- function(input, output) {
         )
     }
     
-    else if((input$internationaldates=="2012")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2012")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2012_P$Country <- factor( MIP_Y2012_P$Country, levels = unique( MIP_Y2012_P$Country)[order(MIP_Y2012_P$GDP, decreasing = TRUE)])
@@ -1875,7 +1875,7 @@ server <- function(input, output) {
       
     }
     
-    else if((input$internationaldates=="2011")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2011")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2011_P$Country <- factor( MIP_Y2011_P$Country, levels = unique( MIP_Y2011_P$Country)[order(MIP_Y2011_P$GDP, decreasing = TRUE)])
@@ -1933,7 +1933,7 @@ server <- function(input, output) {
         )
     }
     
-    else if((input$internationaldates=="2010")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2010")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2010_P$Country <- factor( MIP_Y2010_P$Country, levels = unique( MIP_Y2010_P$Country)[order(MIP_Y2010_P$GDP, decreasing = TRUE)])
@@ -1991,7 +1991,7 @@ server <- function(input, output) {
         )
     }
     
-    else if((input$internationaldates=="2009")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2009")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2009_P$Country <- factor( MIP_Y2009_P$Country, levels = unique( MIP_Y2009_P$Country)[order(MIP_Y2009_P$GDP, decreasing = TRUE)])
@@ -2049,7 +2049,7 @@ server <- function(input, output) {
         )
     }
     
-    else if((input$internationaldates=="2008")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2008")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2008_P$Country <- factor( MIP_Y2008_P$Country, levels = unique( MIP_Y2008_P$Country)[order(MIP_Y2008_P$GDP, decreasing = TRUE)])
@@ -2108,7 +2108,7 @@ server <- function(input, output) {
     }
     
     
-    else if((input$internationaldates=="2007")&(input$rd=="PIGS**")){
+    else if((input$internationaldates=="2007")&(input$rd=="Italy, Greece and Spain")){
       
       
       MIP_Y2007_P$Country <- factor( MIP_Y2007_P$Country, levels = unique( MIP_Y2007_P$Country)[order(MIP_Y2007_P$GDP, decreasing = TRUE)])
