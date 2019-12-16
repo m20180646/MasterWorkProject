@@ -208,7 +208,7 @@ ui <- fluidPage(#theme="bootstrap.css"
                         ),
                         mainPanel( 
                           HTML('<center><span style= color:rgb(142,0,0)><font face=Calibri size=6>Patterns of the selected items per year/month (EUR Millions)</center> </font></span>'),
-                          HTML("The heatmap below exhibits the value of the select item in terms of year/month (defined by the grid). The values are defined in millions of Euros and should be interpreted as a function of the colour saturation; ranges from <strong><span style = color:rgb(255,0,0)>red</span></strong> (more negative values) to <strong><span style = color:rgb(17,104,58)>dark green</span></strong> (more positive values).
+                          HTML("The heatmap below exhibits the value of the select item in terms of year/month (defined by the grid). The values are defined in millions of Euros and should be interpreted as a function of the colour saturation; ranges from <strong><span style = color:rgb(255,0,0)>red</span></strong> (lower values) to <strong><span style = color:rgb(17,104,58)>dark green</span></strong> (higher values).
                                You can see the exact values of each item for each combination of year/month by moving the mouse over each square of colour (<strong>tooltips</strong>). 
                                
                                <br>  <br>
@@ -342,7 +342,7 @@ ui <- fluidPage(#theme="bootstrap.css"
                                   plotlyOutput("international")
                                   , HTML('<span style = color:rgb(128,128,128)>Data source: Eurostat, April 2019 <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php/The_Macroeconomic_Imbalance_Procedure_%28MIP%29_introduced">Click here</a> </span>')
                                   ,br(), HTML('<span style = color:rgb(128,128,128)> *GDP=Gross Domestic Product </span>')
-                            #      ,br(), HTML('<span style = color:rgb(128,128,128)> **PIGS= Acronym for Portugal, Italy, Greece and Spain </span>')    
+                                  #      ,br(), HTML('<span style = color:rgb(128,128,128)> **PIGS= Acronym for Portugal, Italy, Greece and Spain </span>')    
                                   )  
                         )
                       
